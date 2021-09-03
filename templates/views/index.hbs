@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+  </head>
+
+  <body>
+    <div class="main-content">
+      {{>header}}
+
+      <p>Use this site to get your weather!</p>
+
+      <form id="submit">
+        <input type="text" placeholder="Enter Location..." id="address">
+        <input type="submit" value="Submit">
+      </form>
+
+      <p id="message-1"></p>
+      <p id="message-2"></p>
+      <p id="message-3"></p>
+    </div>
+
+    
+
+    {{>footer}}
+
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>
